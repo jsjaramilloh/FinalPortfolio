@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sebastian Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="min-width=486px, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li class="p"><a href="#top">HOME</a></li>
+					<li class="p"><a href="#experience">Experience</a></li>
+					<li class="p"><a href="#projects">Projects</a></li>			
+				</ul>
+			</nav>
+
+		<!-- Home -->
+		<section class="banner">
+        <header class="h">
+            <a href="" class="logo">Portfolio</a>
+            <div class="toggle"></div>
+        </header>
+
+        <img src="./images/portaH.png" class='men' alt="snow">
+
+        <div class="contenth">
+            <div class="contentBx">
+                <h4 class="h">Hello,</h4>
+                <h2 class="h">I'm Sebastian</h2>
+                <h3 class="h">Web Developer</h3>
+                <p class="h">I'm an energetic developer and engineer. Creative, always eager to learn new skills, and able to handle multitasking.</p>
+                <a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">LinkedIn</a>
+                <a href="https://github.com/jsjaramilloh">Github</a>
+            </div>
+        </div>
+
+
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/sebastian.jaramillo.942"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/jsjaramilloh/"><img src="./images/instagram.png" alt=""></a></li>
+            <li><a href="https://twitter.com/Sebasti84949480"><img src="./images/twitter.png" alt=""></a></li>
+        </ul>
+
+        <img src="./images/x.png" alt="" class="elements" data-speed='8'>
+        <img src="./images/t.png" alt="" class="elements" data-speed='6'>
+        <img src="./images/r.png" alt="" class="elements" data-speed='10'>
+    </section> 
+    <script>
+        function parallax(e){
+            this.querySelectorAll('.elements').forEach(layer => {
+                const speed = layer.getAttribute('data-speed');
+                const x = (window.innerWidth - e.pageX*speed)/100;
+                layer.style.transform = `translateX(${x}px)`;
+            })
+        }
+        document.addEventListener('mousemove',parallax);
+    </script>   
+		<!-- <div class="main2">
+			<div class="container2">
+				<div class="card">
+					<div class="content">
+						<img src="./images/porta.JPG" alt="">
+						<h3>Hi. I'm Sebastian</h3>
+						<p>I'm a junior developer, and this my page I showcase my skills and knowledge in the field. To know more about me, take a look into my:</p>
+						<a href="https://xebexp.netlify.app/">EXPERIENCE</a>
+			
+					</div>
+				</div>
+			</div>
+		</div> -->
+			<!-- <article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image-fit-porta"><img src="images/porta.JPG" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Sebastian</strong>.</h1>
+							</header>
+							<p>and this is my <strong>PORTFOLIO</strong>. I'm an energetic developer and engineer. Creative, always eager to learn new skills, and able to handle multitasking.</p>
+							<a href="#work" class="button large scrolly">MY PROFESSIONAL EXPERIENCE</a>
+							<br></br>
+							<p>To check more about me, visit my <a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">LinkedIn</a>.</p>
+						</div>
+					</div>
+				</div>
+			</article> -->
+
+		<!-- Work -->
+			<!-- <article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>UI Revolutionary Design Tools for 2021</h2>
+						<p>I'm strongly committed to making positive and perdurable changes in the groups and communities I belong to.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="image exp"><img src="images/developer.jpg" alt="" /></span>
+								<h3>SOFTWARE DEVELOPMENT</h3>
+								<p>Independent developer and digital Nomad. Certified in current trendy topics such as <strong>Big Data Analytics</strong> and <strong>Data Analytics for decision Making</strong>, as well as fundamental programings languages (JS, PYTHON, REACT).</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="image exp"><img src="images/htn.jpg" alt="" /></span>
+								<h3>E-COMMERCE MANAGEMENT</h3>
+								<p>In this field since 2017, I've been part of the management team of several e-commerce companies in Europe and USA. Currently, I'm starting my Own Ecommerce store called: <strong>Home TechNow</strong>.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="image exp"><img src="images/constru.jpg" alt="" /></span>
+								<h3>INFRASTRUCTURE MANAGEMENT</h3>
+								<p>Bachelor's degree in Civil engineering, and experience in <strong>Infrastructure building and management</strong>. Title recognized and accepted by the ‘Further and higher education-Malta, 2019 (MQF. Level 6).</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Take a look into my CV visiting my <a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">LinkedIn</a>.</p>
+						<a href="https://sebastianjaramillo-portfolio.netlify.app/"><button class="bbtn-background-circle">Take a Look into my portfolio</button></a>
+					</footer>
+				</div>
+			</article> -->
+
+			
+			<!-- menu -->
+
+			<container class="menu">
+				<div class="containerm"> 
+					<div class="box">
+						<div class="imgBx">
+							<img src="./images/31.jpeg" alt="running">
+						</div>
+						<div class="contentm">
+							<div>
+								<h2>FIELDS OF EXPERIENCE.</h2>
+								<!-- <p>I'm strongly committed to making positive and perdurable changes in the groups and communities I belong to.</p> -->
+								<a href="#experience">CHECK IT OUT</a>                    
+							</div>
+						</div>            
+					</div>
+					<div class="box">
+						<div class="imgBx">
+							<img src="./images/32.jpeg" alt="running">
+						</div>
+						<div class="contentm">
+							<div>
+								<h2>WEB PROJECTS.</h2>
+								<!-- <p>Here’s some of the projects I've made recently. These web projects have been developed using Javascript and React. You can check all of my projects by visiting my Git hub.</p> -->
+								<a href="#projects">TAKE A LOOK</a>     
+							</div>
+						</div>            
+					</div>
+					<!-- <div class="box">            
+						<div class="imgBx">
+							<img src="./images/33.jpeg" alt="running">
+						</div>
+						<div class="contentm">
+							<div>
+								<h2>MY TENDENCIES 2021.</h2>
+								<p>This 2021 will define some important trends for the upcoming years, thanks to the new raising technologies. This year will probably define by frosted glass designed, vivid color, and mainly Simple, Clean, Objective pages.</p>
+								<a href="#My trends">DISCOVER</a>    
+							</div>
+						</div>           
+					</div> -->
+					<div class="box">
+						<div class="imgBx">
+							<img src="./images/34.jpg" alt="running">
+						</div>
+						<div class="contentm">
+							<div>
+								<h2>HOMETECHNOW VIDEOS.</h2>
+								<!-- <p>I'm starting my own Ecommerce store called: Home TechNow. My video-making skill, and the new opportunities in the affiliates market lead me to consider this a practical and promissory field.</p> -->
+								<a href="https://htn-videos.netlify.app/">FIND OUT MORE</a>  
+							</div>
+						</div>            
+					</div>
+				</div>
+				
+			</container>
+
+			<!-- experience -->
+		<article id="experience">
+			<container class="e">
+				<div class="main2">
+					<div class="container2">
+						<div class="card2">
+							<h3>FIELDS OF EXPERIENCE</h3>                
+						</div>
+					</div>
+					<div class="container2">        
+						<div class="card">
+							<div class="content2">
+								<img class='e' src="./images/developer.jpg" alt="">
+								<!-- <h2>01</h2> -->
+								<h3>DEVELOPER</h3>
+								<h6 class="e">Independent developer and digital Nomad. Certified in current trendy topics such as Big Data Analytics and Data Analytics for decision Making, as well as fundamental programings languages (JS, PYTHON, REACT).</h6>
+								<a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">READ MORE</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content2">
+								<img class='e' src="./images/htn.jpg" alt="">
+								<!-- <h2>02</h2> -->
+								<h3>E -COMMERCE</h3>
+								<h6 class="e">In this field since 2017, I've been part of the management team of several e-commerce companies in Europe and USA. Currently, I'm starting my Own Ecommerce store called: Home TechNow.</h6>
+								<a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">READ MORE</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="content2">
+								<img class='e' src="./images/constru.jpg" alt="">
+								<!-- <h2>03</h2> -->
+								<h3>INFRASTRUCTURE</h3>
+								<h6 class="e">Bachelor's degree in Civil engineering, and experience in Infrastructure building and management. Title recognized and accepted by the ‘Further and higher education-Malta, 2019 (MQF. Level 6).</h6>
+								<a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/">READ MORE</a>
+							</div>
+						</div>
+					</div>  
+				</div>
+				<script type="text/javascript" src="vanilla-tilt.babel.min.js"></script>
+				<script type="text/javascript">
+					VanillaTilt.init(document.querySelectorAll(".card"), {
+						max: 25,
+						speed: 400,
+						glare: true,
+						'max-glare':0.5,
+					});               
+				</script>  
+			</container>
+		</article>
+
+
+
+
+			<!-- projects -->
+			<article id="projects" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2 class="p">Here’s some stuff I made recently.</h2>
+						<p class="p">The development of these projects has been entirely for educational and entertainment purposes.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://sebastianjaramillo-products-table.netlify.app/" class="image featured"><img src="images/pic51.jpg" alt="" /></a>
+								<h3><a href="https://sebastianjaramillo-products-table.netlify.app/">PRODUCTS DATABASE</a></h3>
+								<p>Funtional aplication using IndexDB.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://hometechnow.netlify.app/" class="image featured"><img src="images/pic52.jpg" alt="" /></a>
+								<h3><a href="https://hometechnow.netlify.app/">Questions accordion</a></h3>
+								<p>Funtional aplication using REACT.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://travel-parallax.netlify.app/" class="image featured"><img src="images/pic53.jpg" alt="" /></a>
+								<h3><a href="https://travel-parallax.netlify.app/">Parallax Travel-Page</a></h3>
+								<p>JS/HTML/CSS Parallax page.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://sebjar-easytetris.netlify.app/" class="image featured"><img src="images/pic54.jpg" alt="" /></a>
+								<h3><a href="https://sebjar-easytetris.netlify.app/">Javascript TETRIS</a></h3>
+								<p>Funtional aplication using basic JS.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://htn-videos.netlify.app/" class="image featured"><img src="images/pic55.jpg" alt="" /></a>
+								<h3><a href="https://htn-videos.netlify.app/">Home TechNow Page</a></h3>
+								<p>HTML page link to my Youtube channel.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://catalog-buttons.netlify.app/" class="image featured"><img src="images/pic56.JPG" alt="" /></a>
+								<h3><a href="https://catalog-buttons.netlify.app/">Bottoms' catalog</a></h3>
+								<p>Catalog with trendy Bottoms</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Do you have any recommendation? Let me know ...</p>
+						<a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
+		
+		
+			<!-- My trends
+			<article id="My trends" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2 class="p">UI Design Trends for 2021.</h2>
+						<p class="p">This 2021 will define some important trends for the upcoming years, thanks to the new raising technologies. This year will probably define by frosted glass designed, vivid color, and mainly Simple, Clean, Objective pages.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://superlistapp.com/" class="image featured"><img src="images/1.JPG" alt="" /></a>
+								<h3><a href="https://superlistapp.com/">3D ILUSTRATIONS.</a></h3>
+								<p>Interactive BGs with 3D-solids.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://dribbble.com/tags/glassmorphism" class="image featured"><img src="images/2.JPG" alt="" /></a>
+								<h3><a href="https://dribbble.com/tags/glassmorphism">GLASSMORPHISM.</a></h3>
+								<p>Frosted Glass aesthetic.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://dribbble.com/shots/15334800-Task-io-Hero-Header" class="image featured"><img src="images/3.JPG" alt="" /></a>
+								<h3><a href="https://dribbble.com/shots/15334800-Task-io-Hero-Header">REAL LIFE PICTURES.</a></h3>
+								<p>Stronger connection with people</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://zen.ly/" class="image featured"><img src="images/4.JPG" alt="" /></a>
+								<h3><a href="https://zen.ly/">VIVID COLORS.</a></h3>
+								<p>For more Attetion Spam.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://mycolor.space/" class="image featured"><img src="images/5.JPG" alt="" /></a>
+								<h3><a href="https://mycolor.space/">BLUR COLORFULL BG.</a></h3>
+								<p>Variation of GM & VC.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://www.revolut.com/" class="image featured"><img src="images/6.JPG" alt="" /></a>
+								<h3><a href="https://www.revolut.com/">MINIMALISM.</a></h3>
+								<p>Simple, Clean, Objective</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://era-of-robots.com/" class="image featured"><img src="images/7.JPG" alt="" /></a>
+								<h3><a href="https://era-of-robots.com/">BIG TYPOGRAPHY.</a></h3>
+								<p>Tree words define WHO you are.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://mylinkisyourlink.cc/" class="image featured"><img src="images/8.JPG" alt="" /></a>
+								<h3><a href="https://mylinkisyourlink.cc/">BRUTALISM.</a></h3>
+								<p>Being ugly on purpose but with patterns.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://www.alexcoven.com/" class="image featured"><img src="images/9.JPG" alt="" /></a>
+								<h3><a href="https://www.alexcoven.com/">ALEX COVEN PORTF.</a></h3>
+								<p>Awwards honors rated.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Do you have any recommendation? Let me know ...</p>
+						<a href="https://www.linkedin.com/in/sebastian-jaramillo-b56522162/"><button class="btn-background-circle">Get in touch with me</button></a>
+					</footer>
+				</div>
+			</article> -->
+
+		<!-- Contact
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<!-- <footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="./vanilla-tilt.babel.min.js"></script>
+			<script type="text/javascript">
+				VanillaTilt.init(document.querySelector(".card"), {
+					max: 25,
+					speed: 400,
+					glare: true,
+					'max-glare':0.5,
+				});               
+			</script>  
+
+	</body>
+</html>
